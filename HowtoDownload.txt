@@ -17,3 +17,5 @@ Node3 Extraction:  wget -w 10 --header="Accept: text/html" --user-agent="Mozilla
 
 
 wget -w 10 --header="Accept: text/html" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0" -O- "http://www.thehindu.com/sitemap/archive/story/{6..12}.xml" |grep -Po 'http(s?)://[^ \"()\<>]*'|xargs -n 1 -Ix echo 'http://jws-app-nbojanapuae.1d35.starter-us-east-1.openshiftapps.com/api/v1/content?url='x|xargs  wget --wait 3 -q
+
+Say Hello

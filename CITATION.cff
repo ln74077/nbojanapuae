@@ -3,7 +3,7 @@ preferred-citation:
   type: software
   message: "If you use nbojanapuae, please cite it as below."
   authors:
-  - family-names: "Bojanapu"
-    given-names: "Lakshminarayana"
+  - family-names: "Bojanapu Lakshminarayana"
+    given-names: "Narayana"
   title: "nbojanapuae: To get content from given URL"
   year: 2018
